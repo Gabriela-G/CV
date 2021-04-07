@@ -1,0 +1,38 @@
+body{
+	background-color:#E4E2DC;
+}
+.cv{
+	background-color:#878886;
+	margin-left: auto;
+	margin-right:auto;
+	width:1200px;	
+}
+.encabezado{
+	text-align:center;
+}
+.foto{
+	width: 250px; height:300px;
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	margin-left: auto;
+	margin-right:auto;
+}
+.cuerpo{
+	background-color: #BACAC7;
+	text-align: justify;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+}
+h3{
+	color:#8F5182;
+}
+table{
+	background-color: #CBDCD6;
+	border-color: #8F5182;
+	color:#8F5182;
+}
+form{
+	color:#8F5182;	
+}
